@@ -9,10 +9,7 @@
 .main {
 	width: 1080px;
 	margin: 0 auto;
-<<<<<<< HEAD
 	margin-bottom:200px;
-=======
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 }
 
 div.catalog {
@@ -48,20 +45,12 @@ div.add-Title {
 
 .reminder {
 	background-color: #2FB255;
-<<<<<<< HEAD
 	text-align: center;
 	display: none;
 	position:fixed;
 	width: 100%;
 	line-height: 30px;
 	z-index: 99;
-=======
-	text-align:center;
-	display: none;
-	position: absolute;
-	width:100%;
-	line-height: 30px;
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 }
 </style>
 <script type="text/javascript">
@@ -100,43 +89,20 @@ div.add-Title {
 			<ul class="breadcrumb">
 				<li>
 					<a href="category/list">分类管理</a>
-<<<<<<< HEAD
 				</li>
 				<li>
 					<a href="product/list?cid=${product.category.id}">${product.category.name}</a>
 				</li>
 				<li class="active">${product.name}</li>
-=======
-					<span class="divider">/</span>
-				</li>
-				<li>
-					<a href="product/list?cid=${product.category.id}">${product.category.name}</a>
-					<span class="divider">/</span>
-				</li>
-				<li class="active">
-					${product.name}
-					<span class="divider">/</span>
-				</li>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 				<li class="active">产品属性编辑</li>
 			</ul>
 		</div>
 		<div class='categorydiv'>
 			<c:forEach items="${requestScope.propertyValues}" var="item" varStatus="status">
-<<<<<<< HEAD
 				<div class="input-group">
 					<span class="input-group-addon" id="basic-addon1">${item.property.name}:</span>
 					<input type="text" class="form-control editValue" name='${item.property.name}' value='${item.value}' pvid="${item.id}" aria-describedby="basic-addon1">
 				</div>
-=======
-				<span>${item.property.name}
-					:
-					<input type="text" name='${item.property.name}' value='${item.value}' pvid="${item.id}" class='editValue'>
-				</span>
-				<c:if test="${status.count%3==0}">
-					<br />
-				</c:if>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 			</c:forEach>
 		</div>
 		<%@include file="/WEB-INF/views/include/admin/adminFooter.jsp"%>

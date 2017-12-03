@@ -8,10 +8,7 @@
 .main {
 	width: 1080px;
 	margin: 0 auto;
-<<<<<<< HEAD
 	margin-bottom:200px; 
-=======
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 }
 
 div.catalog {
@@ -32,14 +29,9 @@ div.add-Title {
 	background-color: #C0C0C0;
 	margin-bottom: 10px;
 }
-
-<<<<<<< HEAD
 form div {
 	display: inline-block;
 }
-
-=======
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 .addProduct {
 	width: 450px;
 	margin: 0 auto;
@@ -68,28 +60,12 @@ form div {
 </head>
 <body>
 	<div class='main'>
-<<<<<<< HEAD
 		<%@include file="/WEB-INF/views/include/admin/adminNavigator.jsp"%>
 		<div class='catalog'>
 			<ul class="breadcrumb">
 				<li><a href="category/list">分类管理</a></li>
 				<li class="active">${category.name}</li>
 				<li class="active">产品列表</li>
-=======
-		<%@include file="../include/admin/adminNavigator.jsp"%>
-		<div class='catalog'>
-			<ul class="breadcrumb">
-				<li>
-					<a href="category/list">分类管理</a>
-					<span class="divider">/</span>
-				</li>
-				<li class="active">${category.name}</li>
-				<li class="active">
-					<span class="divider">/</span>
-					产品列表
-
-				</li>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 			</ul>
 		</div>
 		<div class='categorydiv'>
@@ -110,39 +86,18 @@ form div {
 				<c:forEach items="${products}" var="product" varStatus="st">
 					<tr>
 						<td>${page.startRow+st.index}</td>
-<<<<<<< HEAD
 						<td><img class="categoryImg" style='width: 80px; height: 60px;' src="img/productSingle/${product.firstProductImage.id}.jpg"></td>
-=======
-						<td>
-							<img class="categoryImg" style='width: 80px; height: 60px;' src="img/productSingle/${product.firstProductImage.id}.jpg">
-						</td>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
+
 						<td>${product.name}</td>
 						<td>${product.subtitle}</td>
 						<td width=70px>${product.originalprice}</td>
 						<td width=70px>${product.promoteprice}</td>
 						<td width=70px>${product.stock}</td>
-<<<<<<< HEAD
 						<td width=70px><a href="product/edit?id=${product.id}" class='glyphicon glyphicon-list'></a></td>
 						<td width=70px><a href="productImages/list?id=${product.id}" class='glyphicon glyphicon-edit'></a></td>
 
 						<td width=70px><a href="propertyValue/list?pid=${product.id}" class='glyphicon glyphicon-list'></a></td>
 						<td width=40px><a href="product/delete?id=${product.id}&cid=${category.id}" class='glyphicon glyphicon-trash'></a></td>
-=======
-						<td width=70px>
-							<a href="product/edit?id=${product.id}" class='icon-list'></a>
-						</td>
-						<td width=70px>
-							<a href="productImages/list?id=${product.id}" class='icon-edit'></a>
-						</td>
-
-						<td width=70px>
-							<a href="propertyValue/list?pid=${product.id}" class='icon-list'></a>
-						</td>
-						<td width=40px>
-							<a href="product/delete?id=${product.id}&cid=${category.id}" class='icon-trash'></a>
-						</td>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 					</tr>
 				</c:forEach>
 			</table>
@@ -181,17 +136,13 @@ form div {
 						<input type="text" id="productStock" name="stock" placeholder="请输入产品库存">
 					</div>
 				</div>
-<<<<<<< HEAD
 				<div class="text-center control-group" style="display:block;">
-=======
-				<div class="text-center control-group">
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 					<input type="hidden" name="cid" value="${category.id}">
 					<button type="submit" class="btn">提交</button>
 				</div>
 			</form>
 		</div>
-		<%@include file="../include/admin/adminFooter.jsp"%>
+		<%@include file="/WEB-INF/views/include/admin/adminFooter.jsp"%>
 	</div>
 </body>
 </html>

@@ -25,14 +25,10 @@ div.add-Title {
 	background-color: #C0C0C0;
 	margin-bottom: 10px;
 }
-
-<<<<<<< HEAD
 th {
 	text-align: center;
 }
 
-=======
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 .addProperty {
 	width: 450px;
 	margin: 0 auto;
@@ -46,19 +42,9 @@ th {
 		<%@include file="../include/admin/adminNavigator.jsp"%>
 		<div class='catalog'>
 			<ul class="breadcrumb">
-<<<<<<< HEAD
 				<li><a href="category/list">分类管理</a></li>
 				<li class='active'>${category.name }<span class="divider">/</span>
 				</li>
-=======
-				<li>
-					<a href="category/list">分类管理</a>
-					<span class="divider">/</span>
-				</li>
-				<li class='active'>${category.name }<span class="divider">/</span>
-				</li>
-
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 				<li class='active'>属性</li>
 			</ul>
 		</div>

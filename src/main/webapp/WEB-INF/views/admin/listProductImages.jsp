@@ -71,24 +71,12 @@ div.add-Title {
 			<ul class="breadcrumb">
 				<li>
 					<a href="category/list">分类管理</a>
-<<<<<<< HEAD
 				</li>
 				<li>
 					<a href="product/list?cid=${product.category.id}">${product.category.name}</a>
 				</li>
 				<li class="active">
 					${product.name}
-=======
-					<span class="divider">/</span>
-				</li>
-				<li>
-					<a href="product/list?cid=${product.category.id}">${product.category.name}</a>
-					<span class="divider">/</span>
-				</li>
-				<li class="active">
-					${product.name}
-					<span class="divider">/</span>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 				</li>
 				<li class="active">产品图片管理</li>
 			</ul>
@@ -118,11 +106,7 @@ div.add-Title {
 							<img src='img/productSingle/${item.id}.jpg' style='width: 60px; height: 60px;'>
 						</td>
 						<td>
-<<<<<<< HEAD
 							<a href='productImages/delete?id=${item.id }&pid=${product.id}' class='glyphicon glyphicon-trash'></a>
-=======
-							<a href='productImages/delete?id=${item.id }&pid=${product.id}' class='icon-trash'></a>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 						</td>
 					</tr>
 				</c:forEach>
@@ -153,11 +137,7 @@ div.add-Title {
 							<img src='img/productDetail/${item.id}.jpg' style='width: 60px; height: 60px;'>
 						</td>
 						<td>
-<<<<<<< HEAD
 							<a href='productImages/delete?id=${item.id }&pid=${product.id}' class='glyphicon glyphicon-trash'></a>
-=======
-							<a href='productImages/delete?id=${item.id }&pid=${product.id}' class='icon-trash'></a>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 						</td>
 					</tr>
 				</c:forEach>

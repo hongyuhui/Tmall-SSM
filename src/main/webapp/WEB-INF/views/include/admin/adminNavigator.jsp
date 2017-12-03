@@ -4,7 +4,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style type="text/css">
-<<<<<<< HEAD
 .brandImg {
 	width: 20px;
 	height: 20px;
@@ -58,33 +57,5 @@ $(function(){
 			</div>
 		</div>
 	</nav>
-=======
-img.brand {
-	width: 20px;
-	height: 20px;
-}
-</style>
-<script type="text/javascript">
-</script>
-</head>
-<body>
-	<div class='navbar'>
-		<nav class="navbar-inner">
-			<img alt="小卖部" src="img/site/tmallbuy.png" class="brand">
-			<a class="brand" >小卖部后台</a>
-			<ul class="nav">
-				<li >
-					<a href="category/list">分类管理</a>
-				</li>
-				<li>
-					<a href="order/list">订单管理</a>
-				</li>
-				<li>
-					<a href="user/list">用户管理</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 </body>
 </html>

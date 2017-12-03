@@ -23,13 +23,10 @@ div.add-Title {
 	background-color: #C0C0C0;
 	margin-bottom: 10px;
 }
-<<<<<<< HEAD
 
 div.controls {
 	display: inline-block;
 }
-=======
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 </style>
 
 
@@ -41,17 +38,9 @@ div.controls {
 			<ul class="breadcrumb">
 				<li>
 					<a href="category/list">分类管理</a>
-<<<<<<< HEAD
 				</li>
 				<li>
 					<a href="product/list?cid=${product.category.id }">${product.category.name}</a>
-=======
-					<span class="divider">/</span>
-				</li>
-				<li>
-					<a href="product/list?cid=${product.category.id }">${product.category.name}</a>
-					<span class="divider">/</span>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 				</li>
 				<li class='active'>产品编辑</li>
 			</ul>
@@ -74,11 +63,7 @@ div.controls {
 				<div class="control-group">
 					<label class="control-label" for="producoriginalprice">原始价格</label>
 					<div class="controls">
-<<<<<<< HEAD
 						<input type="text" id="producoriginalprice" name="originalprice" value="${product.originalprice }" placeholder="请输入产品原始价格">
-=======
-						<input type="text" id="producoriginalprice" name="originalprice"  value="${product.originalprice }" placeholder="请输入产品原始价格">
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 					</div>
 				</div>
 				<div class="control-group">

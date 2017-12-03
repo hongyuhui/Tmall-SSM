@@ -16,13 +16,8 @@
 <body>
 
 	<!-- 搭配mybatis pageHelper使用，page为pageHelper包下pageIfo对象，详情见github -->
-<<<<<<< HEAD
 	<nav aria-label="Page navigation" class="text-center ">
 	<ul class="pagination">
-=======
-	<nav class="text-center pagination">
-	<ul>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 		<li <c:if test="${!page.hasPreviousPage}">class="disabled"</c:if>>
 			<a href="${uri}?start=0&${condition}">
 				<span aria-hidden="true">&laquo;</span>

@@ -34,14 +34,9 @@ div.add-Title {
 	background-color: #C0C0C0;
 	margin-bottom: 10px;
 }
-
-<<<<<<< HEAD
 .input-group {
 	margin-bottom: 5px;
 }
-
-=======
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 .addCategory {
 	width: 450px;
 	margin: 0 auto;

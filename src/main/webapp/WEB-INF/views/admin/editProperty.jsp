@@ -34,17 +34,9 @@ div.add-Title {
 			<ul class="breadcrumb">
 				<li>
 					<a href="category/list">分类管理</a>
-<<<<<<< HEAD
 				</li>
 				<li>
 					<a href="property/list?cid=${property.category.id }">${property.category.name }属性</a>
-=======
-					<span class="divider">/</span>
-				</li>
-				<li>
-					<a href="property/list?cid=${property.category.id }">${property.category.name }属性</a>
-					<span class="divider">/</span>
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 				</li>
 				<li class='active'>分类属性编辑</li>
 			</ul>
@@ -56,11 +48,7 @@ div.add-Title {
 			<form action="property/update" method="POST" id="addProperty" class="form-inline form-horizontal">
 				<div class="control-group">
 					<label class="control-label" for="propertyName">属性名称</label>
-<<<<<<< HEAD
 					<div class="controls" style="display:inline-block;">
-=======
-					<div class="controls">
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 						<input type="text" id="propertyName" name="name" value='${property.name }' placeholder="请输入属性名称">
 						<input type="hidden" name='id' value='${property.id }'>
 						<input type="hidden" name='cid' value='${property.category.id}'>

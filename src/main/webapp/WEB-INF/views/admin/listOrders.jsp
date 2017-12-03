@@ -21,12 +21,8 @@ table {
 
 table tr td, th {
 	text-align: center;
-<<<<<<< HEAD
 	font-size: 12px;
 	vertical-align: middle;
-=======
-	font-size: 16px;
->>>>>>> 9c7098800e429f9ed11452cc7d640633f484d820
 }
 
 
